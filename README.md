@@ -5,6 +5,8 @@ By Typhaine Artez. **Version 1.0** *- March 2021*
 Provided under Creative Commons [Attribution-Non-Commercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 Please be sure you read and adhere to the terms of this license.
 
+**WARNING** It does not work correctly if the prim hosting the engine has a special rotation (rotations and positions are not correctly converted)
+
 ## Usage
 
 When dropped in an object containing the PMAC engine, this script will parse menu notecards and will generate the according `AVpos` notecard for AVsitter2. You are on your own to finalize the change (removing unnecessary notecards and script), this script only does the most difficult part (`AVpos` notecard creation from `.menu*` notecards).
